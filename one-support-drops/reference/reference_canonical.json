@@ -1,0 +1,64 @@
+{
+  "study": "one support drops",
+  "claim": "A support settles and NO load is placed on the beam. The two beams free to move develop nothing; the two held at both ends reach first yield at 83.3 mm and 41.7 mm.",
+  "second_axis": "d_yield does not contain the second moment of area. Four sections of the same steel area whose I spreads 194 % all give the same d_yield x depth, and the LEAST stiff section is the most tolerant.",
+  "the_scope_that_matters": "ONE span, ONE section, the end restraint as the only variable. More redundancy does NOT order the answer in general: a 1-degree redundant 2 m beam yields at 37 mm while a 3-degree redundant 12 m beam takes 667.",
+  "verification_not_validation": "Every check reads the same E, section and geometry the solver reads. The closed form it reproduces is the textbook one for the same idealisation, so agreement is verification. Validating this would need a real beam and a real settlement. There is neither.",
+  "not_claimed": "Linear elastic, small displacement, quasi-static, ideal supports. A real fixed end rotates a little and a real bearing has friction and gaps, and every one of those RELIEVES the secondary moment -- these are upper bounds, not predictions. First yield, not collapse. One span, one settling support, no creep, no relaxation, no soil. Yield is not the first consequence: it arrives at L/72 here, about 7x beyond a serviceability reference of L/500.",
+  "meta": {
+    "span_m": 3.0,
+    "section": "i_section",
+    "area_m2": 0.004000000000000002,
+    "I_m4": 1.9173882970629865e-06,
+    "fibre_c_m": 0.045000000000000005,
+    "E_pa": 200000000000.0,
+    "yield_pa": 250000000.0,
+    "d_yield_m": {
+      "cantilever": null,
+      "pinned": null,
+      "propped": 0.08333333333384596,
+      "fixed": 0.04166666666662744
+    },
+    "d_yield_as_span_over": {
+      "cantilever": null,
+      "pinned": null,
+      "propped": 35.999999999778545,
+      "fixed": 72.00000000006779
+    },
+    "fragility_sweep_m": {
+      "L3_d0.30": 0.0125,
+      "L12_d0.09": 0.6666666666666666
+    },
+    "fragility_ratio": 53.33333333333333,
+    "quantity": "The settlement at first yield: the downward movement of ONE support at which the extreme fibre first reaches the yield stress, with no load on the beam. Linear elastic, small displacement, quasi-static, ideal supports -- every real imperfection RELIEVES the secondary moment, so these are upper bounds, not predictions.",
+    "seconds": 0.11448502540588379
+  },
+  "gates": {
+    "replication_gate": true,
+    "determinacy_gate": true,
+    "section_gate": true,
+    "scope_gate": true,
+    "mesh_gate": true,
+    "slenderness_gate": true,
+    "serviceability_gate": true
+  },
+  "no_go": {
+    "replication_gate": true,
+    "determinacy_gate": true,
+    "section_gate": true,
+    "scope_gate": true,
+    "serviceability_gate": true
+  },
+  "all_pass": true,
+  "source_sha256": {
+    "settlement": "1fdce42283cbb0db541b778682cbc1d4939c0b929493806cd5726f74488e0425",
+    "settlement_gates": "4c9ee5a593726ff9f0b8367c497d77eb376fe239beb9d3ff4f2b42c01b97f9f8",
+    "fem": "613651d8f2f556a2a283635d46c20ba163b01802ed47e963e411649b36907b1f",
+    "beams_published": "9c2d07e0393bbf96988c5c7c90b3101022f2a5aa761c4e43c8384343d20cce6d",
+    "column_geometry": "97fa6ab76a2be3f4d8d37e6d79467d64edb4f7fbeaa6bbc764f1be93f4d912f1",
+    "geometry": "87604ae6dbec85a4333bef6581e1139f99ac26c461dd5bb53701bc3b04ddb329",
+    "section_properties": "0aee661f81f382f72bd329db3e7bf0a1f3ffe31b3ed3d0d8071610f5748fb7e2",
+    "utils": "6be98a3583e51f143939bbe988316e818f6392209ea0f4c0efa75522e6c77f4a"
+  },
+  "published_solver_origin": "fem.py and beams_published.py from the published beam study's own rig, extracted to beams_published.py and checked against the study module by test"
+}

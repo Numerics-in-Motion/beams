@@ -1,0 +1,109 @@
+{
+  "video": {
+    "width_9x16": 1080,
+    "height_9x16": 1920,
+    "fps": 30,
+    "output_filename_9x16": "beams_9x16.mp4"
+  },
+  "audio": {
+    "narration_dbfs": -4.0,
+    "sfx_dbfs": -9.0,
+    "bgm_dbfs": -6.0,
+    "limiter_ceiling_dbfs": -1.0
+  },
+  "random_seed": 42,
+  "material": {
+    "name": "steel",
+    "youngs_modulus_pa": 200000000000.0,
+    "poisson_ratio": 0.3,
+    "density_kg_m3": 7850.0,
+    "failure_stress_pa": 250000000.0
+  },
+  "geometry": {
+    "length_m": 3.0,
+    "target_area_m2": 0.004,
+    "envelope_width_m": 0.2,
+    "envelope_height_m": 0.2,
+    "n_elements": 12,
+    "imperfection_ratio": 0.001,
+    "tube_diameter_ratio": 0.85,
+    "box_width_ratio": 0.85,
+    "i_section_height_ratio": 0.9,
+    "i_section_flange_width_ratio": 0.5,
+    "i_section_tf_tw_ratio": 2.0,
+    "span_m": 3.0
+  },
+  "loading": {
+    "type": "point_midspan",
+    "n_elements": 24,
+    "angle_sweep_deg": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90
+    ]
+  },
+  "solver": {
+    "newton_tol": 1e-10
+  },
+  "validation": {
+    "udl_moment_tol": 1e-10,
+    "udl_deflection_tol": 1e-10,
+    "point_deflection_tol": 1e-10,
+    "rotated_inertia_tol": 1e-09,
+    "symmetric_flatness_tol": 1e-12,
+    "euler_tieback_tol": 1e-12,
+    "mesh_convergence_elements": [
+      6,
+      12,
+      24,
+      48
+    ],
+    "boundary_samples": [
+      360,
+      1440,
+      5760
+    ]
+  },
+  "confounds": {
+    "span_m": [
+      2.0,
+      3.0,
+      6.0,
+      8.0
+    ],
+    "envelope_m": [
+      0.15,
+      0.2,
+      0.25
+    ],
+    "load_type": [
+      "point_midspan",
+      "udl"
+    ]
+  },
+  "compute_budget": {
+    "target_s_per_case": 5.0,
+    "hard_cap_s_per_case": 120.0
+  },
+  "ranking": {
+    "trophy": "capacity_strong_axis",
+    "tie_break": "direction_sensitivity",
+    "tie_fraction": 0.03
+  }
+}
