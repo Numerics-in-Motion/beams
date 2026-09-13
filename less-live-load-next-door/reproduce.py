@@ -48,8 +48,11 @@ TOL = 1e-9
 
 
 def sha(path):
+    """SHA-256 of the file with line endings normalised to LF, so the check
+    means the same on a Linux clone, a Windows checkout that converts to
+    CRLF, and the tree it was frozen from."""
     with open(path, "rb") as f:
-        return hashlib.sha256(f.read()).hexdigest()
+        return hashlib.sha256(f.read().replace(b"\r\n", b"\n")).hexdigest()
 
 
 def _where(k):

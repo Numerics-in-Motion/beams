@@ -88,6 +88,6 @@
     "section_properties": "0aee661f81f382f72bd329db3e7bf0a1f3ffe31b3ed3d0d8071610f5748fb7e2",
     "utils": "6be98a3583e51f143939bbe988316e818f6392209ea0f4c0efa75522e6c77f4a"
   },
-  "config_sha256": "6017a07a5f8792b30ce11724c58bddb7467e73115e83124853b7bdd40ad4a93d",
+  "config_sha256": "bc56090397da26ef45c585151c134e75114402f80c51547884254c9176a8aef7",
   "published_solver_origin": "fem.py, beams_published.py, column_geometry.py, geometry.py, section_properties.py and utils.py are the beams rig's root modules, byte for byte"
 }
