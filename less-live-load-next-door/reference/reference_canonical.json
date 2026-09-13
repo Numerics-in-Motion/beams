@@ -1,0 +1,93 @@
+{
+  "study": "pattern loading on a continuous steel girder",
+  "title": "LESS LIVE LOAD NEXT DOOR, MORE SAG HERE",
+  "claim": "In the registered rigid, level, equal-span linear-elastic continuous-girder models, the governing live-load pattern loaded the target end bay and every second bay from it. The largest end-bay sag was 1.39 to 1.76 times the all-bays-loaded sag; permanent load reduces the ratio, and flexible supports can shrink or reverse the effect.",
+  "on_screen": {
+    "setup": "A STEEL FLOOR GIRDER, CONTINUOUS OVER FOUR COLUMNS",
+    "same": "SAME LIVE LOAD ON THIS BAY",
+    "removed": "NEIGHBOURING LIVE LOAD REMOVED",
+    "model": "RIGID, LEVEL, EQUAL-SPAN MODEL",
+    "headline_template": "GOVERNING END-SPAN SAG: {lo:.2f}–{hi:.2f}× — LIVE LOAD ONLY",
+    "why": "THE LOAD NEXT DOOR BENDS THIS BAY UP BESIDE THE SHARED COLUMN",
+    "why_sub": "NEXT-BAY LOAD, ISOLATED",
+    "rise_template": "PEAK RISE HERE: {mm:.1f} mm",
+    "permanent": "Permanent load reduces the ratio.",
+    "flexible": "Flexible supports can shrink or reverse the effect.",
+    "linear": "LINEAR ELASTIC 2-D BEAM MODEL",
+    "magnified_template": "VERTICAL DEFLECTION ×{factor:d}",
+    "headline": "GOVERNING END-SPAN SAG: 1.39–1.76× — LIVE LOAD ONLY",
+    "magnified": "VERTICAL DEFLECTION ×50"
+  },
+  "identity": [
+    "WORKER DRAWN TO SCALE, 1.70 m - AN ILLUSTRATION"
+  ],
+  "what_is_not_claimed": "Linear elastic, small displacement, quasi-static load cases: removing the load is not a dynamic event. A 2-D beam with rigid, level supports and equal spans in the core; flexible supports can shrink or reverse the effect, and permanent load on every span reduces the ratio. Deflection, not strength: with every bay loaded the interior support moment governs first yield. No slab, composite action, connection or column flexibility. Interior spans are not quoted: their all-bays sag is small enough that their ratio is not a comparable number.",
+  "verification_not_validation": "The two-span coefficients and the support moment are reproduced from beam theory, the ratios do not move between 48 and 96 elements per span, and every live-load subset is enumerated. All of it reads the same idealisation the solver reads. No measured girder is reproduced here.",
+  "control": {
+    "name": "control",
+    "closed_form": {
+      "all": 0.005416121605827781,
+      "one": 0.009150556074890303
+    },
+    "fe_production": {
+      "all": 0.0054161176084115675,
+      "one": 0.009150553814686518
+    },
+    "worst": 1.20044174615197e-05,
+    "passes": true
+  },
+  "u": 2.669607992444867e-06,
+  "end_span_range": [
+    1.39,
+    1.76
+  ],
+  "end_span_range_exact": [
+    1.385712407519299,
+    1.760017947037937
+  ],
+  "end_span_range_udl": [
+    1.4406101495350112,
+    1.760017947037937
+  ],
+  "core_cases": 36,
+  "core_subsets": 384,
+  "display": {
+    "n_spans": 3,
+    "ends": "pinned",
+    "load": "udl",
+    "target": 0,
+    "live_w_n_per_m": 6000.0,
+    "span_m": 3.0,
+    "section": "i_section",
+    "sag_all_mm": 8.72468360162867,
+    "sag_alternate_mm": 12.568891434020095,
+    "worst_stress_over_yield": 0.5914294990414523
+  },
+  "display_ratio": 1.4406101495350112,
+  "display_governing": [
+    0,
+    2
+  ],
+  "flexible_reversal_found": true,
+  "gates": {
+    "control": true,
+    "resolution": true,
+    "core": true,
+    "alternate": true,
+    "elastic": true,
+    "flexible": true,
+    "wording": true
+  },
+  "source_sha256": {
+    "pattern_beam": "2bc4ff9774d7deac3ce3fa5c1136eb01e096729410ee1b6056f8a0e17baff3f5",
+    "pattern_beam_gates": "a98e239dc9125da003804eaf064d0e395d1441b0025d4407a6ba6bd3506b1b39",
+    "fem": "613651d8f2f556a2a283635d46c20ba163b01802ed47e963e411649b36907b1f",
+    "beams_published": "9c2d07e0393bbf96988c5c7c90b3101022f2a5aa761c4e43c8384343d20cce6d",
+    "column_geometry": "97fa6ab76a2be3f4d8d37e6d79467d64edb4f7fbeaa6bbc764f1be93f4d912f1",
+    "geometry": "87604ae6dbec85a4333bef6581e1139f99ac26c461dd5bb53701bc3b04ddb329",
+    "section_properties": "0aee661f81f382f72bd329db3e7bf0a1f3ffe31b3ed3d0d8071610f5748fb7e2",
+    "utils": "6be98a3583e51f143939bbe988316e818f6392209ea0f4c0efa75522e6c77f4a"
+  },
+  "config_sha256": "6017a07a5f8792b30ce11724c58bddb7467e73115e83124853b7bdd40ad4a93d",
+  "published_solver_origin": "fem.py, beams_published.py, column_geometry.py, geometry.py, section_properties.py and utils.py are the beams rig's root modules, byte for byte"
+}

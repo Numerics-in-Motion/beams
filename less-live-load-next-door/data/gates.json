@@ -1,0 +1,124 @@
+{
+ "title": "LESS LIVE LOAD NEXT DOOR, MORE SAG HERE",
+ "claim": "In the registered rigid, level, equal-span linear-elastic continuous-girder models, the governing live-load pattern loaded the target end bay and every second bay from it. The largest end-bay sag was 1.39 to 1.76 times the all-bays-loaded sag; permanent load reduces the ratio, and flexible supports can shrink or reverse the effect.",
+ "on_screen": {
+  "setup": "A STEEL FLOOR GIRDER, CONTINUOUS OVER FOUR COLUMNS",
+  "same": "SAME LIVE LOAD ON THIS BAY",
+  "removed": "NEIGHBOURING LIVE LOAD REMOVED",
+  "model": "RIGID, LEVEL, EQUAL-SPAN MODEL",
+  "headline_template": "GOVERNING END-SPAN SAG: {lo:.2f}–{hi:.2f}× — LIVE LOAD ONLY",
+  "why": "THE LOAD NEXT DOOR BENDS THIS BAY UP BESIDE THE SHARED COLUMN",
+  "why_sub": "NEXT-BAY LOAD, ISOLATED",
+  "rise_template": "PEAK RISE HERE: {mm:.1f} mm",
+  "permanent": "Permanent load reduces the ratio.",
+  "flexible": "Flexible supports can shrink or reverse the effect.",
+  "linear": "LINEAR ELASTIC 2-D BEAM MODEL",
+  "magnified_template": "VERTICAL DEFLECTION ×{factor:d}",
+  "headline": "GOVERNING END-SPAN SAG: 1.39–1.76× — LIVE LOAD ONLY",
+  "magnified": "VERTICAL DEFLECTION ×50"
+ },
+ "silent": {
+  "result_template": "end bay {lo:.2f}–{hi:.2f}× across the cases",
+  "limits": [
+   "live load only; permanent load reduces it",
+   "rigid, level, equal spans",
+   "flexible supports can reverse it"
+  ],
+  "result": "end bay 1.39–1.76× across the cases"
+ },
+ "narration": {
+  "a1": "A steel floor girder, continuous over four columns.",
+  "a2": "The same live load on every bay.",
+  "b1": "Now take the live load off the middle bay only.",
+  "c1": "The end bay sags more, with nothing added to it.",
+  "d1": "The load next door was lifting this bay.",
+  "e1": "Alternating bays governed every rigid, level, equal-span end-bay case.",
+  "e2": "One point three nine to one point seven six times.",
+  "z1": "Permanent load shrinks it.",
+  "z2": "Flexible supports can reverse it."
+ },
+ "identity": [
+  "WORKER DRAWN TO SCALE, 1.70 m - AN ILLUSTRATION"
+ ],
+ "magnification": 50,
+ "display": {
+  "n_spans": 3,
+  "ends": "pinned",
+  "load": "udl",
+  "target": 0,
+  "live_w_n_per_m": 6000.0,
+  "span_m": 3.0,
+  "section": "i_section",
+  "sag_all_mm": 8.72468360162867,
+  "sag_alternate_mm": 12.568891434020095,
+  "worst_stress_over_yield": 0.5914294990414523
+ },
+ "end_span_range": [
+  1.39,
+  1.76
+ ],
+ "gates": [
+  {
+   "name": "control",
+   "closed_form": {
+    "all": 0.005416121605827781,
+    "one": 0.009150556074890303
+   },
+   "fe_production": {
+    "all": 0.0054161176084115675,
+    "one": 0.009150553814686518
+   },
+   "worst": 1.20044174615197e-05,
+   "passes": true
+  },
+  {
+   "name": "resolution",
+   "u": 2.669607992444867e-06,
+   "smallest_effect": 0.385712407519299,
+   "passes": true
+  },
+  {
+   "name": "core",
+   "cases": 36,
+   "subsets": 384,
+   "bad": [],
+   "end_span_range": [
+    1.385712407519299,
+    1.760017947037937
+   ],
+   "end_span_range_udl": [
+    1.4406101495350112,
+    1.760017947037937
+   ],
+   "passes": true
+  },
+  {
+   "name": "alternate",
+   "not_alternate": [],
+   "display_governing": [
+    0,
+    2
+   ],
+   "display_ratio": 1.4406101495350112,
+   "passes": true
+  },
+  {
+   "name": "elastic",
+   "worst_stress_over_yield": 0.5914294990414523,
+   "passes": true
+  },
+  {
+   "name": "flexible",
+   "reversal_found": true,
+   "caveat": "Flexible supports can shrink or reverse the effect.",
+   "passes": true
+  },
+  {
+   "name": "wording",
+   "hits": [],
+   "passes": true
+  }
+ ],
+ "passed": 7,
+ "total": 7
+}
