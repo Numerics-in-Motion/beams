@@ -1,0 +1,113 @@
+{
+  "baseline_sag_m": 0.002109375,
+  "best_runner_gap": 0.05772066258417863,
+  "cases": [
+    {
+      "a_frac": 0.125,
+      "kappa": 1.0,
+      "mesh": 256,
+      "reduction_percent": 13.963754660046746,
+      "sag_m": 0.0018148270501396392,
+      "sag_mm": 1.814827050139639,
+      "spring_compatibility_rel": 1.62378921114255e-16,
+      "spring_equilibrium_rel": 2.847573333333333e-12,
+      "spring_moment_knm": 11.202127659574467,
+      "spring_moment_nm": 11202.127659574468,
+      "theta_mrad": -0.8401595744680851,
+      "theta_rad": -0.0008401595744680851,
+      "vertical_equilibrium_rel": 1.8189894035458565e-12,
+      "vertical_reaction_n": 60000.00000010914,
+      "x_at_max_m": 3.0576829273998167
+    },
+    {
+      "a_frac": 0.25,
+      "kappa": 1.0,
+      "mesh": 256,
+      "reduction_percent": 8.997685572769687,
+      "sag_m": 0.0019195800699493895,
+      "sag_mm": 1.9195800699493895,
+      "spring_compatibility_rel": 0.0,
+      "spring_equilibrium_rel": 1.3250559999999998e-11,
+      "spring_moment_knm": 9.0,
+      "spring_moment_nm": 9000.0,
+      "theta_mrad": -0.675,
+      "theta_rad": -0.000675,
+      "vertical_equilibrium_rel": 5.4569682106375694e-12,
+      "vertical_reaction_n": 59999.99999967258,
+      "x_at_max_m": 3.013885428595617
+    },
+    {
+      "a_frac": 0.375,
+      "kappa": 1.0,
+      "mesh": 256,
+      "reduction_percent": 2.918403557175009,
+      "sag_m": 0.00204781492496584,
+      "sag_mm": 2.0478149249658397,
+      "spring_compatibility_rel": 0.0,
+      "spring_equilibrium_rel": 2.9874439489361704e-11,
+      "spring_moment_knm": 5.011848341232228,
+      "spring_moment_nm": 5011.8483412322275,
+      "theta_mrad": -0.3758886255924171,
+      "theta_rad": -0.00037588862559241707,
+      "vertical_equilibrium_rel": 0.0,
+      "vertical_reaction_n": 60000.0,
+      "x_at_max_m": 2.9797243025433504
+    },
+    {
+      "a_frac": 0.5,
+      "kappa": 1.0,
+      "mesh": 256,
+      "reduction_percent": 0.0,
+      "sag_m": 0.002109375,
+      "sag_mm": 2.109375,
+      "spring_compatibility_rel": 0.0,
+      "spring_equilibrium_rel": 3.1331747635239795e-41,
+      "spring_moment_knm": -5.504847607196149e-54,
+      "spring_moment_nm": -5.504847607196149e-51,
+      "theta_mrad": 4.128635705397112e-55,
+      "theta_rad": 4.128635705397112e-58,
+      "vertical_equilibrium_rel": 0.0,
+      "vertical_reaction_n": 60000.0,
+      "x_at_max_m": 3.0
+    }
+  ],
+  "claim": "Of the four registered points, x/L = 1/8 gives the smallest maximum sag; the midpoint restraint does nothing under symmetric loading because the beam rotation there is already zero.",
+  "gate_names": [
+    "parent",
+    "pinned_limit",
+    "finite_force_method",
+    "rigid_limit",
+    "mirror",
+    "equilibrium",
+    "spring_compatibility",
+    "resolution",
+    "midpoint_null",
+    "known_bad",
+    "registered_payoff"
+  ],
+  "model": {
+    "E_pa": 200000000000.0,
+    "I_m4": 0.0004,
+    "L_m": 6.0,
+    "deflection_magnification": 100,
+    "kappa_theta": 1.0,
+    "positions_x_over_L": [
+      0.125,
+      0.25,
+      0.375,
+      0.5
+    ],
+    "production_mesh": 256,
+    "q_n_per_m": 10000.0
+  },
+  "registration": "one ideal rotational restraint to a fixed reference, at four pre-registered points on one simply supported beam",
+  "requirements_sha256": "2f334caec0672e643d789b4732cafff46876af91423e60d2b6205d8ffa9e9ac0",
+  "scope": "An ideal dimensionless rotational restraint to a fixed reference, not a splice, real connection, strength check or installation recommendation.",
+  "source_sha256": {
+    "rotational_restraint": "9249104f4b0fd2924a0f799f9d6a94c3cd3069780aed552f959bdf1930b9098f",
+    "rotational_restraint_gates": "4b2284450f8350a9b54a2fe9d714dc686d60c2e0f4cc1530f4f12509cc69f6d0"
+  },
+  "title": "Where One Rotational Restraint Works",
+  "u": 1e-10,
+  "winner_x_over_L": 0.125
+}

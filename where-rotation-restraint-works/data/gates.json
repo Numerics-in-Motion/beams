@@ -1,0 +1,165 @@
+{
+  "passed": 11,
+  "total": 11,
+  "gates": [
+    {
+      "name": "parent",
+      "passes": true,
+      "worst_relative": 3.360778322303304e-11,
+      "tolerance": 2e-05
+    },
+    {
+      "name": "pinned_limit",
+      "passes": true,
+      "worst_relative": 2.220446049250313e-16,
+      "tolerance": 1e-09
+    },
+    {
+      "name": "finite_force_method",
+      "passes": true,
+      "worst_relative": 2.220446049250313e-16,
+      "tolerance": 1e-08
+    },
+    {
+      "name": "rigid_limit",
+      "passes": true,
+      "worst_relative": 1.2212453270876722e-15,
+      "tolerance": 1e-08
+    },
+    {
+      "name": "mirror",
+      "passes": true,
+      "worst_relative": 2.220446049250313e-16,
+      "tolerance": 1e-09
+    },
+    {
+      "name": "equilibrium",
+      "passes": true,
+      "worst_relative": 5.4569682106375694e-12,
+      "tolerance": 1e-10
+    },
+    {
+      "name": "spring_compatibility",
+      "passes": true,
+      "worst_relative": 1.62378921114255e-16,
+      "independent_equilibrium_relative": 2.9874439489361704e-11,
+      "tolerance": 1e-10
+    },
+    {
+      "name": "resolution",
+      "passes": true,
+      "u": 1e-10,
+      "gap": 0.05772066258417863,
+      "headroom": 115441325.16835725
+    },
+    {
+      "name": "midpoint_null",
+      "passes": true,
+      "theta_rad": 4.128635705397112e-58,
+      "sag_relative_to_unrestrained": 0.0
+    },
+    {
+      "name": "known_bad",
+      "passes": true,
+      "checks": {
+        "negative_stiffness": true,
+        "coordinate_mapping": true,
+        "spring_operator": true,
+        "load_symmetry": true
+      }
+    },
+    {
+      "name": "registered_payoff",
+      "passes": true,
+      "winner": 0.125,
+      "reductions_percent": [
+        13.963754660046746,
+        8.997685572769687,
+        2.918403557175009,
+        0.0
+      ]
+    }
+  ],
+  "tolerances": {
+    "parent": 2e-05,
+    "pinned": 1e-09,
+    "finite": 1e-08,
+    "rigid": 1e-08,
+    "mirror": 1e-09,
+    "equilibrium": 1e-10,
+    "compatibility": 1e-10
+  },
+  "all_pass": true,
+  "no_go": {
+    "parent": true,
+    "pinned_limit": true,
+    "finite_force_method": true,
+    "rigid_limit": true,
+    "mirror": true,
+    "equilibrium": true,
+    "spring_compatibility": true,
+    "resolution": true,
+    "midpoint_null": true,
+    "known_bad": true,
+    "registered_payoff": true
+  },
+  "kill_line_survives": true,
+  "claim": "Of the four registered points, x/L = 1/8 gives the smallest maximum sag; the midpoint restraint does nothing under symmetric loading because the beam rotation there is already zero.",
+  "scope": "An ideal dimensionless rotational restraint to a fixed reference, not a splice, real connection, strength check or installation recommendation.",
+  "on_screen": {
+    "title": [
+      "WHERE SHOULD ONE",
+      "ROTATION RESTRAINT GO?"
+    ],
+    "setup": [
+      "SAME 6.0 m STEEL BEAM",
+      "SAME 10.0 kN/m FLOOR LOAD",
+      "SAME IDEAL RESTRAINT \u00b7 \u03ba\u03b8 = 1",
+      "ONLY x/L CHANGES"
+    ],
+    "labels": [
+      "x/L = 1/8",
+      "x/L = 1/4",
+      "x/L = 3/8",
+      "x/L = 1/2"
+    ],
+    "values_mm": [
+      "1.815 mm",
+      "1.920 mm",
+      "2.048 mm",
+      "2.109 mm"
+    ],
+    "twist": [
+      "MIDPOINT: MAXIMUM BENDING MOMENT",
+      "BUT ROTATION = 0",
+      "SPRING MOMENT = 0"
+    ],
+    "answer": [
+      "BEST OF THESE FOUR: x/L = 1/8",
+      "MAXIMUM SAG: 1.815 mm",
+      "14.0% BELOW THE UNRESTRAINED SAG"
+    ],
+    "disclosure": [
+      "IDEAL RESTRAINT TO A FIXED REFERENCE",
+      "NOT A SPLICE OR REAL CONNECTION",
+      "DEFLECTION \u00d7100 \u00b7 LINEAR ELASTIC MODEL",
+      "NOT AN INSTALLATION RECOMMENDATION"
+    ],
+    "repo": "REPRODUCTION: github.com/Numerics-in-Motion/beams",
+    "illustration": "OPENING CLOSE-UP IS AN ILLUSTRATION"
+  },
+  "narration": {
+    "n00": "A six-metre steel beam, carrying the same floor load.",
+    "n01": "One ideal rotational restraint can go at four registered positions.",
+    "n02": "It connects beam rotation to a fixed reference. It is not a splice.",
+    "n03": "Every case uses the same stiffness: kappa theta equals one.",
+    "n04": "We measure the greatest downward deflection anywhere on the beam.",
+    "n05": "At one eighth of the span, it falls to 1.815 millimetres.",
+    "n06": "At one quarter: 1.920. At three eighths: 2.048.",
+    "n07": "But at the midpoint, the spring moment is zero.",
+    "n08": "The beam bends most there, yet its rotation is already zero.",
+    "n09": "So the rotational restraint has nothing to resist.",
+    "n10": "Of these four registered positions, one eighth gives the least maximum downward deflection.",
+    "n11": "An ideal model, not a real connection or installation recommendation."
+  }
+}

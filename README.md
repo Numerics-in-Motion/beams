@@ -8,6 +8,7 @@ beams_published.py     the four supports and the beam builder
 column_geometry.py     the four sections, at one fixed steel area
 one-support-drops/     what the ground moving does to a beam nobody loaded
 less-live-load-next-door/  what the next bay's live load does to this one
+where-rotation-restraint-works/  where one ideal rotation restraint reduces sag
 ```
 
 ## Why one repository and not one per study
@@ -41,6 +42,8 @@ python reproduce.py --quick   # the headline only
 |---|---|---|
 | [`one-support-drops`](one-support-drops/) | a support settles and nothing is loaded — which beam is hurt? | the settlement at first yield |
 | [`less-live-load-next-door`](less-live-load-next-door/) | a continuous girder loses the live load on the next bay — does this bay sag less, or more? | the largest sag of the loaded bay |
+
+| [`where-rotation-restraint-works`](where-rotation-restraint-works/) | one ideal rotational restraint moves along one beam | the maximum downward deflection anywhere |
 
 ## What the rig is
 

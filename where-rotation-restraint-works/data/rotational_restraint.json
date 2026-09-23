@@ -1,0 +1,661 @@
+{
+  "study": "ideal rotational restraint to a fixed reference",
+  "model": {
+    "E_pa": 200000000000.0,
+    "I_m4": 0.0004,
+    "L_m": 6.0,
+    "q_n_per_m": 10000.0,
+    "kappa_theta": 1.0,
+    "positions_x_over_L": [
+      0.125,
+      0.25,
+      0.375,
+      0.5
+    ],
+    "production_mesh": 256,
+    "deflection_magnification": 100
+  },
+  "parent": {
+    "frozen_038": {
+      "all": 0.005416121605827781,
+      "one": 0.009150556074890303
+    },
+    "reproduced": {
+      "all": 0.005416121605875507,
+      "one": 0.009150556074582773
+    },
+    "worst_relative": 3.360778322303304e-11
+  },
+  "baseline_sag_m": 0.002109375,
+  "cases": [
+    {
+      "a_frac": 0.125,
+      "kappa": 1.0,
+      "mesh": 256,
+      "sag_m": 0.0018148270501396392,
+      "x_at_max_m": 3.0576829273998167,
+      "theta_rad": -0.0008401595744680851,
+      "spring_moment_nm": 11202.127659574468,
+      "vertical_reaction_n": 60000.00000010914,
+      "vertical_equilibrium_rel": 1.8189894035458565e-12,
+      "spring_compatibility_rel": 1.62378921114255e-16,
+      "spring_equilibrium_rel": 2.847573333333333e-12,
+      "sag_mm": 1.814827050139639,
+      "reduction_percent": 13.963754660046746,
+      "theta_mrad": -0.8401595744680851,
+      "spring_moment_knm": 11.202127659574467
+    },
+    {
+      "a_frac": 0.25,
+      "kappa": 1.0,
+      "mesh": 256,
+      "sag_m": 0.0019195800699493895,
+      "x_at_max_m": 3.013885428595617,
+      "theta_rad": -0.000675,
+      "spring_moment_nm": 9000.0,
+      "vertical_reaction_n": 59999.99999967258,
+      "vertical_equilibrium_rel": 5.4569682106375694e-12,
+      "spring_compatibility_rel": 0.0,
+      "spring_equilibrium_rel": 1.3250559999999998e-11,
+      "sag_mm": 1.9195800699493895,
+      "reduction_percent": 8.997685572769687,
+      "theta_mrad": -0.675,
+      "spring_moment_knm": 9.0
+    },
+    {
+      "a_frac": 0.375,
+      "kappa": 1.0,
+      "mesh": 256,
+      "sag_m": 0.00204781492496584,
+      "x_at_max_m": 2.9797243025433504,
+      "theta_rad": -0.00037588862559241707,
+      "spring_moment_nm": 5011.8483412322275,
+      "vertical_reaction_n": 60000.0,
+      "vertical_equilibrium_rel": 0.0,
+      "spring_compatibility_rel": 0.0,
+      "spring_equilibrium_rel": 2.9874439489361704e-11,
+      "sag_mm": 2.0478149249658397,
+      "reduction_percent": 2.918403557175009,
+      "theta_mrad": -0.3758886255924171,
+      "spring_moment_knm": 5.011848341232228
+    },
+    {
+      "a_frac": 0.5,
+      "kappa": 1.0,
+      "mesh": 256,
+      "sag_m": 0.002109375,
+      "x_at_max_m": 3.0,
+      "theta_rad": 4.128635705397112e-58,
+      "spring_moment_nm": -5.504847607196149e-51,
+      "vertical_reaction_n": 60000.0,
+      "vertical_equilibrium_rel": 0.0,
+      "spring_compatibility_rel": 0.0,
+      "spring_equilibrium_rel": 3.1331747635239795e-41,
+      "sag_mm": 2.109375,
+      "reduction_percent": 0.0,
+      "theta_mrad": 4.128635705397112e-55,
+      "spring_moment_knm": -5.504847607196149e-54
+    }
+  ],
+  "meshes": {
+    "64": [
+      {
+        "a_frac": 0.125,
+        "kappa": 1.0,
+        "mesh": 64,
+        "sag_m": 0.0018148270501396394,
+        "x_at_max_m": 3.057682927399814,
+        "theta_rad": -0.0008401595744680851,
+        "spring_moment_nm": 11202.127659574468,
+        "vertical_reaction_n": 60000.00000001364,
+        "vertical_equilibrium_rel": 2.2737367544323206e-13,
+        "spring_compatibility_rel": 1.62378921114255e-16,
+        "spring_equilibrium_rel": 2.540088888888889e-13
+      },
+      {
+        "a_frac": 0.25,
+        "kappa": 1.0,
+        "mesh": 64,
+        "sag_m": 0.0019195800699493895,
+        "x_at_max_m": 3.013885428595657,
+        "theta_rad": -0.000675,
+        "spring_moment_nm": 9000.0,
+        "vertical_reaction_n": 59999.99999997954,
+        "vertical_equilibrium_rel": 3.409998801847299e-13,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 6.963199999999999e-13
+      },
+      {
+        "a_frac": 0.375,
+        "kappa": 1.0,
+        "mesh": 64,
+        "sag_m": 0.00204781492496584,
+        "x_at_max_m": 2.979724302543347,
+        "theta_rad": -0.00037588862559241707,
+        "spring_moment_nm": 5011.8483412322275,
+        "vertical_reaction_n": 59999.99999996589,
+        "vertical_equilibrium_rel": 5.684948215881983e-13,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 1.5102931063829788e-12
+      },
+      {
+        "a_frac": 0.5,
+        "kappa": 1.0,
+        "mesh": 64,
+        "sag_m": 0.002109375,
+        "x_at_max_m": 3.0,
+        "theta_rad": 5.338843463491624e-60,
+        "spring_moment_nm": -7.118457951322166e-53,
+        "vertical_reaction_n": 60000.0,
+        "vertical_equilibrium_rel": 0.0,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 1.0145733660062497e-43
+      }
+    ],
+    "128": [
+      {
+        "a_frac": 0.125,
+        "kappa": 1.0,
+        "mesh": 128,
+        "sag_m": 0.0018148270501396387,
+        "x_at_max_m": 3.0576829273997896,
+        "theta_rad": -0.0008401595744680851,
+        "spring_moment_nm": 11202.127659574468,
+        "vertical_reaction_n": 59999.99999994543,
+        "vertical_equilibrium_rel": 9.094947017729282e-13,
+        "spring_compatibility_rel": 1.62378921114255e-16,
+        "spring_equilibrium_rel": 1.5477059829059828e-12
+      },
+      {
+        "a_frac": 0.25,
+        "kappa": 1.0,
+        "mesh": 128,
+        "sag_m": 0.0019195800699493895,
+        "x_at_max_m": 3.0138854285956738,
+        "theta_rad": -0.000675,
+        "spring_moment_nm": 9000.0,
+        "vertical_reaction_n": 59999.99999994543,
+        "vertical_equilibrium_rel": 9.094947017729282e-13,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 2.80576e-12
+      },
+      {
+        "a_frac": 0.375,
+        "kappa": 1.0,
+        "mesh": 128,
+        "sag_m": 0.0020478149249658403,
+        "x_at_max_m": 2.979724302543355,
+        "theta_rad": -0.00037588862559241707,
+        "spring_moment_nm": 5011.8483412322275,
+        "vertical_reaction_n": 59999.999999972715,
+        "vertical_equilibrium_rel": 4.547473508864641e-13,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 2.654685276595745e-12
+      },
+      {
+        "a_frac": 0.5,
+        "kappa": 1.0,
+        "mesh": 128,
+        "sag_m": 0.002109375,
+        "x_at_max_m": 3.0,
+        "theta_rad": -9.70429080791839e-60,
+        "spring_moment_nm": 1.2939054410557854e-52,
+        "vertical_reaction_n": 60000.0,
+        "vertical_equilibrium_rel": 0.0,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 3.683748510771677e-43
+      }
+    ],
+    "256": [
+      {
+        "a_frac": 0.125,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.0018148270501396392,
+        "x_at_max_m": 3.0576829273998167,
+        "theta_rad": -0.0008401595744680851,
+        "spring_moment_nm": 11202.127659574468,
+        "vertical_reaction_n": 60000.00000010914,
+        "vertical_equilibrium_rel": 1.8189894035458565e-12,
+        "spring_compatibility_rel": 1.62378921114255e-16,
+        "spring_equilibrium_rel": 2.847573333333333e-12,
+        "sag_mm": 1.814827050139639,
+        "reduction_percent": 13.963754660046746,
+        "theta_mrad": -0.8401595744680851,
+        "spring_moment_knm": 11.202127659574467
+      },
+      {
+        "a_frac": 0.25,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.0019195800699493895,
+        "x_at_max_m": 3.013885428595617,
+        "theta_rad": -0.000675,
+        "spring_moment_nm": 9000.0,
+        "vertical_reaction_n": 59999.99999967258,
+        "vertical_equilibrium_rel": 5.4569682106375694e-12,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 1.3250559999999998e-11,
+        "sag_mm": 1.9195800699493895,
+        "reduction_percent": 8.997685572769687,
+        "theta_mrad": -0.675,
+        "spring_moment_knm": 9.0
+      },
+      {
+        "a_frac": 0.375,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.00204781492496584,
+        "x_at_max_m": 2.9797243025433504,
+        "theta_rad": -0.00037588862559241707,
+        "spring_moment_nm": 5011.8483412322275,
+        "vertical_reaction_n": 60000.0,
+        "vertical_equilibrium_rel": 0.0,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 2.9874439489361704e-11,
+        "sag_mm": 2.0478149249658397,
+        "reduction_percent": 2.918403557175009,
+        "theta_mrad": -0.3758886255924171,
+        "spring_moment_knm": 5.011848341232228
+      },
+      {
+        "a_frac": 0.5,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.002109375,
+        "x_at_max_m": 3.0,
+        "theta_rad": 4.128635705397112e-58,
+        "spring_moment_nm": -5.504847607196149e-51,
+        "vertical_reaction_n": 60000.0,
+        "vertical_equilibrium_rel": 0.0,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 3.1331747635239795e-41,
+        "sag_mm": 2.109375,
+        "reduction_percent": 0.0,
+        "theta_mrad": 4.128635705397112e-55,
+        "spring_moment_knm": -5.504847607196149e-54
+      }
+    ]
+  },
+  "mesh_movements": [
+    2.220446049250313e-16,
+    0.0,
+    2.220446049250313e-16,
+    0.0
+  ],
+  "u": 1e-10,
+  "best_runner_gap": 0.05772066258417863,
+  "winner_x_over_L": 0.125,
+  "mirrors": [
+    {
+      "left": {
+        "a_frac": 0.125,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.0018148270501396392,
+        "x_at_max_m": 3.0576829273998167,
+        "theta_rad": -0.0008401595744680851,
+        "spring_moment_nm": 11202.127659574468,
+        "vertical_reaction_n": 60000.00000010914,
+        "vertical_equilibrium_rel": 1.8189894035458565e-12,
+        "spring_compatibility_rel": 1.62378921114255e-16,
+        "spring_equilibrium_rel": 2.847573333333333e-12
+      },
+      "right": {
+        "a_frac": 0.875,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.0018148270501396387,
+        "x_at_max_m": 2.942317072600175,
+        "theta_rad": 0.0008401595744680851,
+        "spring_moment_nm": -11202.127659574468,
+        "vertical_reaction_n": 60000.00000021828,
+        "vertical_equilibrium_rel": 3.637978807091713e-12,
+        "spring_compatibility_rel": 1.62378921114255e-16,
+        "spring_equilibrium_rel": 2.847573333333333e-12
+      }
+    },
+    {
+      "left": {
+        "a_frac": 0.25,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.0019195800699493895,
+        "x_at_max_m": 3.013885428595617,
+        "theta_rad": -0.000675,
+        "spring_moment_nm": 9000.0,
+        "vertical_reaction_n": 59999.99999967258,
+        "vertical_equilibrium_rel": 5.4569682106375694e-12,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 1.3250559999999998e-11
+      },
+      "right": {
+        "a_frac": 0.75,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.0019195800699493895,
+        "x_at_max_m": 2.986114571404386,
+        "theta_rad": 0.000675,
+        "spring_moment_nm": -9000.0,
+        "vertical_reaction_n": 59999.9999994543,
+        "vertical_equilibrium_rel": 9.094947017729282e-12,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 1.3250559999999998e-11
+      }
+    },
+    {
+      "left": {
+        "a_frac": 0.375,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.00204781492496584,
+        "x_at_max_m": 2.9797243025433504,
+        "theta_rad": -0.00037588862559241707,
+        "spring_moment_nm": 5011.8483412322275,
+        "vertical_reaction_n": 60000.0,
+        "vertical_equilibrium_rel": 0.0,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 2.9874439489361704e-11
+      },
+      "right": {
+        "a_frac": 0.625,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.0020478149249658403,
+        "x_at_max_m": 3.0202756974566674,
+        "theta_rad": 0.00037588862559241707,
+        "spring_moment_nm": -5011.8483412322275,
+        "vertical_reaction_n": 60000.0,
+        "vertical_equilibrium_rel": 0.0,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 2.9874439489361704e-11
+      }
+    }
+  ],
+  "analytic": [
+    {
+      "a_frac": 0.125,
+      "fe": {
+        "a_frac": 0.125,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.0018148270501396392,
+        "x_at_max_m": 3.0576829273998167,
+        "theta_rad": -0.0008401595744680851,
+        "spring_moment_nm": 11202.127659574468,
+        "vertical_reaction_n": 60000.00000010914,
+        "vertical_equilibrium_rel": 1.8189894035458565e-12,
+        "spring_compatibility_rel": 1.62378921114255e-16,
+        "spring_equilibrium_rel": 2.847573333333333e-12
+      },
+      "force": {
+        "sag_m": 0.0018148270501396387,
+        "x_at_max_m": 3.0576829589410033,
+        "theta_rad": 0.000840159574468085,
+        "couple_nm": -11202.127659574468,
+        "alpha_rad_per_nm": 1.6796875e-08
+      }
+    },
+    {
+      "a_frac": 0.25,
+      "fe": {
+        "a_frac": 0.25,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.0019195800699493895,
+        "x_at_max_m": 3.013885428595617,
+        "theta_rad": -0.000675,
+        "spring_moment_nm": 9000.0,
+        "vertical_reaction_n": 59999.99999967258,
+        "vertical_equilibrium_rel": 5.4569682106375694e-12,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 1.3250559999999998e-11
+      },
+      "force": {
+        "sag_m": 0.0019195800699493893,
+        "x_at_max_m": 3.0138854040974334,
+        "theta_rad": 0.000675,
+        "couple_nm": -9000.000000000002,
+        "alpha_rad_per_nm": 1.09375e-08
+      }
+    },
+    {
+      "a_frac": 0.375,
+      "fe": {
+        "a_frac": 0.375,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.00204781492496584,
+        "x_at_max_m": 2.9797243025433504,
+        "theta_rad": -0.00037588862559241707,
+        "spring_moment_nm": 5011.8483412322275,
+        "vertical_reaction_n": 60000.0,
+        "vertical_equilibrium_rel": 0.0,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 2.9874439489361704e-11
+      },
+      "force": {
+        "sag_m": 0.00204781492496584,
+        "x_at_max_m": 2.979724302623109,
+        "theta_rad": 0.00037588862559241707,
+        "couple_nm": -5011.8483412322275,
+        "alpha_rad_per_nm": 7.421875e-09
+      }
+    },
+    {
+      "a_frac": 0.5,
+      "fe": {
+        "a_frac": 0.5,
+        "kappa": 1.0,
+        "mesh": 256,
+        "sag_m": 0.002109375,
+        "x_at_max_m": 3.0,
+        "theta_rad": 4.128635705397112e-58,
+        "spring_moment_nm": -5.504847607196149e-51,
+        "vertical_reaction_n": 60000.0,
+        "vertical_equilibrium_rel": 0.0,
+        "spring_compatibility_rel": 0.0,
+        "spring_equilibrium_rel": 3.1331747635239795e-41
+      },
+      "force": {
+        "sag_m": 0.002109375,
+        "x_at_max_m": 3.0,
+        "theta_rad": 0.0,
+        "couple_nm": -0.0,
+        "alpha_rad_per_nm": 6.25e-09
+      }
+    }
+  ],
+  "limits": {
+    "pinned": [
+      {
+        "a_frac": 0.125,
+        "fe": {
+          "a_frac": 0.125,
+          "kappa": 0.0,
+          "mesh": 256,
+          "sag_m": 0.002109375,
+          "x_at_max_m": 3.0,
+          "theta_rad": -0.0010283203125,
+          "spring_moment_nm": 0.0,
+          "vertical_reaction_n": 60000.0,
+          "vertical_equilibrium_rel": 0.0,
+          "spring_compatibility_rel": 0.0,
+          "spring_equilibrium_rel": 0.028672
+        },
+        "force": {
+          "sag_m": 0.0021093749999999997,
+          "x_at_max_m": 2.9999999554998067,
+          "theta_rad": 0.0010283203125,
+          "couple_nm": -0.0,
+          "alpha_rad_per_nm": 1.6796875e-08
+        }
+      },
+      {
+        "a_frac": 0.25,
+        "fe": {
+          "a_frac": 0.25,
+          "kappa": 0.0,
+          "mesh": 256,
+          "sag_m": 0.002109375,
+          "x_at_max_m": 3.0,
+          "theta_rad": -0.0007734374999999999,
+          "spring_moment_nm": 0.0,
+          "vertical_reaction_n": 60000.0,
+          "vertical_equilibrium_rel": 0.0,
+          "spring_compatibility_rel": 0.0,
+          "spring_equilibrium_rel": 0.244224
+        },
+        "force": {
+          "sag_m": 0.002109375,
+          "x_at_max_m": 3.0000000000121867,
+          "theta_rad": 0.0007734375,
+          "couple_nm": -0.0,
+          "alpha_rad_per_nm": 1.09375e-08
+        }
+      },
+      {
+        "a_frac": 0.375,
+        "fe": {
+          "a_frac": 0.375,
+          "kappa": 0.0,
+          "mesh": 256,
+          "sag_m": 0.002109375,
+          "x_at_max_m": 3.0,
+          "theta_rad": -0.0004130859375,
+          "spring_moment_nm": 0.0,
+          "vertical_reaction_n": 60000.0,
+          "vertical_equilibrium_rel": 0.0,
+          "spring_compatibility_rel": 0.0,
+          "spring_equilibrium_rel": 0.27136000000000005
+        },
+        "force": {
+          "sag_m": 0.0021093749999999997,
+          "x_at_max_m": 2.9999999602917224,
+          "theta_rad": 0.0004130859375,
+          "couple_nm": -0.0,
+          "alpha_rad_per_nm": 7.421875e-09
+        }
+      },
+      {
+        "a_frac": 0.5,
+        "fe": {
+          "a_frac": 0.5,
+          "kappa": 0.0,
+          "mesh": 256,
+          "sag_m": 0.002109375,
+          "x_at_max_m": 3.0,
+          "theta_rad": 1.3347454669621262e-58,
+          "spring_moment_nm": -0.0,
+          "vertical_reaction_n": 60000.0,
+          "vertical_equilibrium_rel": 0.0,
+          "spring_compatibility_rel": 0.0,
+          "spring_equilibrium_rel": 1.0124510553238138e-41
+        },
+        "force": {
+          "sag_m": 0.002109375,
+          "x_at_max_m": 3.0,
+          "theta_rad": 0.0,
+          "couple_nm": -0.0,
+          "alpha_rad_per_nm": 6.25e-09
+        }
+      }
+    ],
+    "rigid": [
+      {
+        "a_frac": 0.125,
+        "fe": {
+          "a_frac": 0.125,
+          "kappa": "inf",
+          "mesh": 256,
+          "sag_m": 0.000553915016467822,
+          "x_at_max_m": 3.7227351036259266,
+          "theta_rad": 0.0,
+          "spring_moment_nm": 0.0,
+          "vertical_reaction_n": 60000.000000027285,
+          "vertical_equilibrium_rel": 4.547473508864641e-13,
+          "spring_compatibility_rel": 0.0,
+          "spring_equilibrium_rel": 0.0
+        },
+        "force": {
+          "sag_m": 0.0005539150164678226,
+          "x_at_max_m": 3.722735100866868,
+          "theta_rad": 0.0,
+          "couple_nm": -61220.93023255813,
+          "alpha_rad_per_nm": 1.6796875e-08
+        }
+      },
+      {
+        "a_frac": 0.25,
+        "fe": {
+          "a_frac": 0.25,
+          "kappa": "inf",
+          "mesh": 256,
+          "sag_m": 0.0006287974658868562,
+          "x_at_max_m": 3.379692638199103,
+          "theta_rad": 0.0,
+          "spring_moment_nm": 0.0,
+          "vertical_reaction_n": 59999.99999989086,
+          "vertical_equilibrium_rel": 1.8189894035458565e-12,
+          "spring_compatibility_rel": 0.0,
+          "spring_equilibrium_rel": 0.0
+        },
+        "force": {
+          "sag_m": 0.0006287974658868564,
+          "x_at_max_m": 3.3796925758912795,
+          "theta_rad": 0.0,
+          "couple_nm": -70714.28571428572,
+          "alpha_rad_per_nm": 1.09375e-08
+        }
+      },
+      {
+        "a_frac": 0.375,
+        "fe": {
+          "a_frac": 0.375,
+          "kappa": "inf",
+          "mesh": 256,
+          "sag_m": 0.0014636391087582239,
+          "x_at_max_m": 2.25,
+          "theta_rad": 0.0,
+          "spring_moment_nm": 0.0,
+          "vertical_reaction_n": 60000.00000010914,
+          "vertical_equilibrium_rel": 1.8189894035458565e-12,
+          "spring_compatibility_rel": 0.0,
+          "spring_equilibrium_rel": 0.0
+        },
+        "force": {
+          "sag_m": 0.0014636391087582239,
+          "x_at_max_m": 2.25,
+          "theta_rad": 0.0,
+          "couple_nm": -55657.8947368421,
+          "alpha_rad_per_nm": 7.421875e-09
+        }
+      },
+      {
+        "a_frac": 0.5,
+        "fe": {
+          "a_frac": 0.5,
+          "kappa": "inf",
+          "mesh": 256,
+          "sag_m": 0.002109375,
+          "x_at_max_m": 3.0,
+          "theta_rad": 0.0,
+          "spring_moment_nm": 0.0,
+          "vertical_reaction_n": 60000.0,
+          "vertical_equilibrium_rel": 0.0,
+          "spring_compatibility_rel": 0.0,
+          "spring_equilibrium_rel": 0.0
+        },
+        "force": {
+          "sag_m": 0.002109375,
+          "x_at_max_m": 3.0,
+          "theta_rad": 0.0,
+          "couple_nm": -0.0,
+          "alpha_rad_per_nm": 6.25e-09
+        }
+      }
+    ]
+  },
+  "claim": "Of the four registered points, x/L = 1/8 gives the smallest maximum sag; the midpoint restraint does nothing under symmetric loading because the beam rotation there is already zero.",
+  "scope": "An ideal dimensionless rotational restraint to a fixed reference, not a splice, real connection, strength check or installation recommendation."
+}
