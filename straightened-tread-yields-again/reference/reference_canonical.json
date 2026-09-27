@@ -1,0 +1,9 @@
+{
+  "protocol": "051 v2+v3",
+  "q_star": 1.175,
+  "virgin_first_yield_N": 3904.428236800001,
+  "control_bow_mm": 0.6714825718818133,
+  "straightened_bow_mm": 0.0514329938439664,
+  "re_yield_over_virgin": 0.8444506139680681,
+  "interpretation": "First additional plastic flow in a fixed idealized section-history model; not installed-stair safety or repair efficacy."
+}

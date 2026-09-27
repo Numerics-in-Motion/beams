@@ -1,0 +1,1600 @@
+{
+  "protocol": "051 v2+v3",
+  "mode": "sweep",
+  "spec": {
+    "a": 0.1,
+    "fy": 110000000.0,
+    "hiso": 0.0,
+    "hkin": 0.0
+  },
+  "nx": 81,
+  "nz": 101,
+  "step_multiplier": 1,
+  "py_N": 3904.428236800001,
+  "my_Nm": 739.2000000000002,
+  "mg_Nm": 7.119705600000002,
+  "elapsed_s": 7.768534199916758,
+  "result": [
+    {
+      "q": 0.0,
+      "bow_mm": 0.6714825718818133,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 400
+    },
+    {
+      "q": 0.025,
+      "bow_mm": 0.6714825718818145,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.99626459869923e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 404
+    },
+    {
+      "q": 0.05,
+      "bow_mm": 0.6714825718818147,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 408
+    },
+    {
+      "q": 0.07500000000000001,
+      "bow_mm": 0.6714825718818137,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694334018e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.858462371157877e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 412
+    },
+    {
+      "q": 0.1,
+      "bow_mm": 0.6714825718818138,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714331e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.99626459869923e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 416
+    },
+    {
+      "q": 0.125,
+      "bow_mm": 0.6714825718818137,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694334018e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 420
+    },
+    {
+      "q": 0.15000000000000002,
+      "bow_mm": 0.6714825718818129,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694334018e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 424
+    },
+    {
+      "q": 0.17500000000000002,
+      "bow_mm": 0.6714825718818136,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714331e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 428
+    },
+    {
+      "q": 0.2,
+      "bow_mm": 0.671482571881814,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714331e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 432
+    },
+    {
+      "q": 0.225,
+      "bow_mm": 0.671482571881813,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694334018e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.998725352762468e-15,
+      "stages": 436
+    },
+    {
+      "q": 0.25,
+      "bow_mm": 0.6714825718818128,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694334018e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 440
+    },
+    {
+      "q": 0.275,
+      "bow_mm": 0.6714825718818133,
+      "event": {
+        "pre": 4880.535295999959,
+        "ratio": 1.2499999999999893,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999893,
+            "upper_ratio": 1.2519999999999893,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.5774533887165e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999892,
+            "upper_ratio": 1.2509999999999895,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694336078e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 444
+    },
+    {
+      "q": 0.30000000000000004,
+      "bow_mm": 0.6714825718818134,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714331e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 448
+    },
+    {
+      "q": 0.325,
+      "bow_mm": 0.6714825718818136,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714331e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.99626459869923e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 452
+    },
+    {
+      "q": 0.35000000000000003,
+      "bow_mm": 0.671482571881813,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714331e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.99626459869923e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 456
+    },
+    {
+      "q": 0.375,
+      "bow_mm": 0.6714825718818136,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694334018e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 460
+    },
+    {
+      "q": 0.4,
+      "bow_mm": 0.6714825718818145,
+      "event": {
+        "pre": 4880.535295999958,
+        "ratio": 1.2499999999999891,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999891,
+            "upper_ratio": 1.251999999999989,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388716066e-06
+          },
+          {
+            "lower_ratio": 1.248999999999989,
+            "upper_ratio": 1.2509999999999892,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694335644e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.651759029845848e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 464
+    },
+    {
+      "q": 0.42500000000000004,
+      "bow_mm": 0.6714825718818126,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694334018e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 468
+    },
+    {
+      "q": 0.45,
+      "bow_mm": 0.671482571881813,
+      "event": {
+        "pre": 4880.535295999958,
+        "ratio": 1.2499999999999891,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999891,
+            "upper_ratio": 1.251999999999989,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388716066e-06
+          },
+          {
+            "lower_ratio": 1.248999999999989,
+            "upper_ratio": 1.2509999999999892,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694335644e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.651759029845848e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 472
+    },
+    {
+      "q": 0.47500000000000003,
+      "bow_mm": 0.6714825718818135,
+      "event": {
+        "pre": 4880.535295999956,
+        "ratio": 1.2499999999999885,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999887,
+            "upper_ratio": 1.2519999999999885,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388713139e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999883,
+            "upper_ratio": 1.2509999999999886,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694333584e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 476
+    },
+    {
+      "q": 0.5,
+      "bow_mm": 0.6714825718818133,
+      "event": {
+        "pre": 4880.535295999956,
+        "ratio": 1.2499999999999885,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999887,
+            "upper_ratio": 1.2519999999999885,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388713139e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999883,
+            "upper_ratio": 1.2509999999999886,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694333584e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.651759029845848e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 480
+    },
+    {
+      "q": 0.525,
+      "bow_mm": 0.6714825718818126,
+      "event": {
+        "pre": 4880.535295999956,
+        "ratio": 1.2499999999999885,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00588,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999887,
+            "upper_ratio": 1.2519999999999885,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388713464e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999883,
+            "upper_ratio": 1.2509999999999886,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943331505e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 484
+    },
+    {
+      "q": 0.55,
+      "bow_mm": 0.6714825718818129,
+      "event": {
+        "pre": 4880.53529599996,
+        "ratio": 1.2499999999999896,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999896,
+            "upper_ratio": 1.2519999999999896,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388718234e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999895,
+            "upper_ratio": 1.2509999999999897,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694337379e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 488
+    },
+    {
+      "q": 0.5750000000000001,
+      "bow_mm": 0.6714825718818135,
+      "event": {
+        "pre": 4880.535295999959,
+        "ratio": 1.2499999999999893,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999893,
+            "upper_ratio": 1.2519999999999893,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388716933e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999892,
+            "upper_ratio": 1.2509999999999895,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694336078e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.998725352762468e-15,
+      "stages": 492
+    },
+    {
+      "q": 0.6000000000000001,
+      "bow_mm": 0.6714825718818129,
+      "event": {
+        "pre": 4880.535295999958,
+        "ratio": 1.2499999999999891,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999891,
+            "upper_ratio": 1.251999999999989,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388716066e-06
+          },
+          {
+            "lower_ratio": 1.248999999999989,
+            "upper_ratio": 1.2509999999999892,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694335644e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 496
+    },
+    {
+      "q": 0.625,
+      "bow_mm": 0.6714825718818126,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714331e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 500
+    },
+    {
+      "q": 0.65,
+      "bow_mm": 0.6714825718818112,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714331e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.2887266943344516e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.691131094857662e-15,
+      "stages": 504
+    },
+    {
+      "q": 0.675,
+      "bow_mm": 0.6714825718818118,
+      "event": {
+        "pre": 4880.535295999958,
+        "ratio": 1.2499999999999891,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999891,
+            "upper_ratio": 1.251999999999989,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388716066e-06
+          },
+          {
+            "lower_ratio": 1.248999999999989,
+            "upper_ratio": 1.2509999999999892,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694335644e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 4.15252248171487e-15,
+      "stages": 508
+    },
+    {
+      "q": 0.7000000000000001,
+      "bow_mm": 0.6714825718818113,
+      "event": {
+        "pre": 4880.535295999957,
+        "ratio": 1.249999999999989,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.247999999999989,
+            "upper_ratio": 1.2519999999999887,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388714765e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999888,
+            "upper_ratio": 1.2509999999999888,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694334018e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.7206601436165245e-17,
+      "max_m_rel": 3.53733396590526e-15,
+      "stages": 512
+    },
+    {
+      "q": 0.7250000000000001,
+      "bow_mm": 0.6714825718818138,
+      "event": {
+        "pre": 4880.535295999955,
+        "ratio": 1.2499999999999882,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00516,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999885,
+            "upper_ratio": 1.2519999999999882,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388712054e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999881,
+            "upper_ratio": 1.2509999999999883,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694332283e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.651759029845848e-17,
+      "max_m_rel": 3.844928223810065e-15,
+      "stages": 516
+    },
+    {
+      "q": 0.75,
+      "bow_mm": 0.6714825718818123,
+      "event": {
+        "pre": 4880.535295999956,
+        "ratio": 1.2499999999999885,
+        "immediate": false,
+        "location_m": 0.45,
+        "z_m": -0.00588,
+        "brackets": [
+          {
+            "lower_ratio": 1.2479999999999887,
+            "upper_ratio": 1.2519999999999885,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 8.577453388713464e-06
+          },
+          {
+            "lower_ratio": 1.2489999999999883,
+            "upper_ratio": 1.2509999999999886,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 4.288726694333584e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 4.613913868572078e-15,
+      "stages": 520
+    },
+    {
+      "q": 0.775,
+      "bow_mm": 0.6714212259408339,
+      "event": {
+        "pre": 4858.868116480025,
+        "ratio": 1.2444506139680687,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.2424506139680687,
+            "upper_ratio": 1.2464506139680687,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.176108454820128e-06
+          },
+          {
+            "lower_ratio": 1.2434506139680686,
+            "upper_ratio": 1.2454506139680688,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274151598e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 524
+    },
+    {
+      "q": 0.8,
+      "bow_mm": 0.6704693585871178,
+      "event": {
+        "pre": 4761.257410560022,
+        "ratio": 1.219450613968068,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.217450613968068,
+            "upper_ratio": 1.221450613968068,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548196945e-06
+          },
+          {
+            "lower_ratio": 1.218450613968068,
+            "upper_ratio": 1.2204506139680682,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274147261e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 528
+    },
+    {
+      "q": 0.8250000000000001,
+      "bow_mm": 0.6675596461783149,
+      "event": {
+        "pre": 4663.646704640022,
+        "ratio": 1.194450613968068,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.192450613968068,
+            "upper_ratio": 1.196450613968068,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.176108454818827e-06
+          },
+          {
+            "lower_ratio": 1.1934506139680678,
+            "upper_ratio": 1.195450613968068,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274138588e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.582857916075172e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 532
+    },
+    {
+      "q": 0.8500000000000001,
+      "bow_mm": 0.6609479738326133,
+      "event": {
+        "pre": 4566.035998720021,
+        "ratio": 1.1694506139680676,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.1674506139680676,
+            "upper_ratio": 1.1714506139680676,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548194776e-06
+          },
+          {
+            "lower_ratio": 1.1684506139680675,
+            "upper_ratio": 1.1704506139680677,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274145093e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 3.9618140418138914e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 536
+    },
+    {
+      "q": 0.875,
+      "bow_mm": 0.6505437359127156,
+      "event": {
+        "pre": 4468.425292800022,
+        "ratio": 1.1444506139680681,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.1424506139680681,
+            "upper_ratio": 1.1464506139680681,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548183934e-06
+          },
+          {
+            "lower_ratio": 1.143450613968068,
+            "upper_ratio": 1.1454506139680682,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.588054227413425e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.1340668262405826e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 540
+    },
+    {
+      "q": 0.9,
+      "bow_mm": 0.6365580506752104,
+      "event": {
+        "pre": 4370.814586880022,
+        "ratio": 1.119450613968068,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.117450613968068,
+            "upper_ratio": 1.121450613968068,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.176108454819044e-06
+          },
+          {
+            "lower_ratio": 1.1184506139680679,
+            "upper_ratio": 1.120450613968068,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274140756e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 544
+    },
+    {
+      "q": 0.925,
+      "bow_mm": 0.6154741859205243,
+      "event": {
+        "pre": 4273.203880960022,
+        "ratio": 1.0944506139680679,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.0924506139680679,
+            "upper_ratio": 1.0964506139680679,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.176108454818827e-06
+          },
+          {
+            "lower_ratio": 1.0934506139680678,
+            "upper_ratio": 1.095450613968068,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274140756e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.478572395093965e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 548
+    },
+    {
+      "q": 0.9500000000000001,
+      "bow_mm": 0.5897545558635806,
+      "event": {
+        "pre": 4175.59317504002,
+        "ratio": 1.0694506139680673,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.0674506139680673,
+            "upper_ratio": 1.0714506139680673,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548183934e-06
+          },
+          {
+            "lower_ratio": 1.0684506139680672,
+            "upper_ratio": 1.0704506139680674,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274132083e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.9608801914886995e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 552
+    },
+    {
+      "q": 0.9750000000000001,
+      "bow_mm": 0.5572525274620197,
+      "event": {
+        "pre": 4077.9824691200165,
+        "ratio": 1.0444506139680665,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.0424506139680667,
+            "upper_ratio": 1.0464506139680665,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548170924e-06
+          },
+          {
+            "lower_ratio": 1.0434506139680666,
+            "upper_ratio": 1.0454506139680666,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274119072e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 556
+    },
+    {
+      "q": 1.0,
+      "bow_mm": 0.5163487042140273,
+      "event": {
+        "pre": 3980.37176320002,
+        "ratio": 1.0194506139680675,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 1.0174506139680675,
+            "upper_ratio": 1.0214506139680675,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548183934e-06
+          },
+          {
+            "lower_ratio": 1.0184506139680674,
+            "upper_ratio": 1.0204506139680674,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274129914e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 560
+    },
+    {
+      "q": 1.0250000000000001,
+      "bow_mm": 0.4684844319521308,
+      "event": {
+        "pre": 3882.761057280021,
+        "ratio": 0.9944506139680677,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 0.9924506139680678,
+            "upper_ratio": 0.9964506139680677,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.176108454818827e-06
+          },
+          {
+            "lower_ratio": 0.9934506139680677,
+            "upper_ratio": 0.9954506139680677,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.588054227413425e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 564
+    },
+    {
+      "q": 1.05,
+      "bow_mm": 0.41069301388541524,
+      "event": {
+        "pre": 3785.1503513600223,
+        "ratio": 0.9694506139680681,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 0.9674506139680681,
+            "upper_ratio": 0.9714506139680681,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548192608e-06
+          },
+          {
+            "lower_ratio": 0.9684506139680681,
+            "upper_ratio": 0.9704506139680681,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274142925e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 568
+    },
+    {
+      "q": 1.075,
+      "bow_mm": 0.34222192863644635,
+      "event": {
+        "pre": 3687.539645440018,
+        "ratio": 0.944450613968067,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 0.942450613968067,
+            "upper_ratio": 0.946450613968067,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548170924e-06
+          },
+          {
+            "lower_ratio": 0.943450613968067,
+            "upper_ratio": 0.945450613968067,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274116904e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.9608801914886995e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 572
+    },
+    {
+      "q": 1.1,
+      "bow_mm": 0.26443115426996505,
+      "event": {
+        "pre": 3589.928939520018,
+        "ratio": 0.919450613968067,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 0.917450613968067,
+            "upper_ratio": 0.9214506139680669,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.176108454817526e-06
+          },
+          {
+            "lower_ratio": 0.918450613968067,
+            "upper_ratio": 0.9204506139680669,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.588054227412341e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 576
+    },
+    {
+      "q": 1.125,
+      "bow_mm": 0.17316340084029969,
+      "event": {
+        "pre": 3492.31823360002,
+        "ratio": 0.8944506139680675,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 0.8924506139680676,
+            "upper_ratio": 0.8964506139680675,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548186103e-06
+          },
+          {
+            "lower_ratio": 0.8934506139680675,
+            "upper_ratio": 0.8954506139680675,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274132083e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 580
+    },
+    {
+      "q": 1.1500000000000001,
+      "bow_mm": 0.06723894767059711,
+      "event": {
+        "pre": 3394.7075276800147,
+        "ratio": 0.8694506139680661,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 0.8674506139680661,
+            "upper_ratio": 0.8714506139680661,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.176108454816008e-06
+          },
+          {
+            "lower_ratio": 0.8684506139680661,
+            "upper_ratio": 0.8704506139680661,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274106062e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.409671281323288e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 584
+    },
+    {
+      "q": 1.175,
+      "bow_mm": 0.0514329938439664,
+      "event": {
+        "pre": 3297.096821760022,
+        "ratio": 0.8444506139680681,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 0.8424506139680681,
+            "upper_ratio": 0.846450613968068,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548192608e-06
+          },
+          {
+            "lower_ratio": 0.8434506139680681,
+            "upper_ratio": 0.8454506139680681,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.588054227413425e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.9608801914886995e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 588
+    },
+    {
+      "q": 1.2000000000000002,
+      "bow_mm": 0.18763916503135955,
+      "event": {
+        "pre": 3199.4861158400136,
+        "ratio": 0.8194506139680658,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 0.8174506139680658,
+            "upper_ratio": 0.8214506139680658,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.176108454816225e-06
+          },
+          {
+            "lower_ratio": 0.8184506139680658,
+            "upper_ratio": 0.8204506139680658,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.588054227410823e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.9608801914886995e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 592
+    },
+    {
+      "q": 1.225,
+      "bow_mm": 0.341521029693109,
+      "event": {
+        "pre": 3101.87540992001,
+        "ratio": 0.7944506139680649,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 0.792450613968065,
+            "upper_ratio": 0.7964506139680649,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.176108454814707e-06
+          },
+          {
+            "lower_ratio": 0.7934506139680649,
+            "upper_ratio": 0.7954506139680649,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274093051e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.9608801914886995e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 596
+    },
+    {
+      "q": 1.25,
+      "bow_mm": 0.5168653972071335,
+      "event": {
+        "pre": 3004.264704000013,
+        "ratio": 0.7694506139680657,
+        "immediate": false,
+        "location_m": 0.4,
+        "z_m": -0.006,
+        "brackets": [
+          {
+            "lower_ratio": 0.7674506139680657,
+            "upper_ratio": 0.7714506139680657,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 3.1761084548157913e-06
+          },
+          {
+            "lower_ratio": 0.7684506139680657,
+            "upper_ratio": 0.7704506139680657,
+            "below_acc_increment": 0.0,
+            "above_acc_increment": 1.5880542274103893e-06
+          }
+        ]
+      },
+      "max_strain": 0.0028379411983047195,
+      "max_slope_rad": 0.08047936184099905,
+      "max_y_over_L": 0.027468126132223564,
+      "max_n_rel": 4.9608801914886995e-17,
+      "max_m_rel": 3.075942579048052e-15,
+      "stages": 600
+    }
+  ]
+}

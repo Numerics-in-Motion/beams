@@ -1,0 +1,168 @@
+{
+  "protocol": "051 v2+v3",
+  "anchors": {
+    "analytic_py_N": 3904.428236800001,
+    "solver_py_N": 3904.4282368000195,
+    "yield_gap": 0.0,
+    "virgin_linear_gap": 2.1195166833752987e-16,
+    "pure_bending": [
+      {
+        "kappa_over_ky": 1.2,
+        "numeric": 1.1527104000000001,
+        "analytic": 1.1527777777777777,
+        "relative_gap": 5.8448192770881696e-05
+      },
+      {
+        "kappa_over_ky": 1.5,
+        "numeric": 1.277776,
+        "analytic": 1.2777777777777777,
+        "relative_gap": 1.3913043477309375e-06
+      },
+      {
+        "kappa_over_ky": 2.0,
+        "numeric": 1.3752000000000002,
+        "analytic": 1.375,
+        "relative_gap": 0.00014545454545469093
+      }
+    ],
+    "reverse_block": {
+      "q": 1.175,
+      "analytic_k1": 0.368618321575771,
+      "numeric_k1": 0.3686587327832368,
+      "k1_relative_gap": 0.00010962886297413206,
+      "analytic_reverse_kappa": -0.3085448098750867,
+      "numeric_reverse_kappa": -0.3084978532246304,
+      "reverse_kappa_relative_gap": 0.00015218745852603084,
+      "max_stress_gap_over_fy": 0.00012550232031047345,
+      "analytic_block_moment_gap_over_my": 1.537971289524026e-16,
+      "elastic_unload_slope_relative_gap": 8.874151413706957e-15,
+      "elastic_unload_acc_increment": 0.0
+    },
+    "gravity_off_mirrored_histories": {
+      "epp": 0.0,
+      "isotropic": 0.0,
+      "kinematic": 0.0
+    },
+    "dense_analytic_control_bow_mm": 0.6720059132356564,
+    "history_excess_axial_rel": 7.062364161494328e-18,
+    "history_excess_moment_rel": 1.4984737870029427e-15
+  },
+  "primary": [
+    {
+      "q": 1.175,
+      "upper_bow_ratio": 0.07730545245415624,
+      "upper_reyield_ratio": 0.8464506139680749,
+      "pass": true
+    }
+  ],
+  "sensitivity_recomputed": {
+    "isotropic_0p01E": {
+      "pass": true,
+      "cells": [
+        {
+          "q": 1.175,
+          "upper_bow_ratio": 0.04672667597292579,
+          "upper_reyield_ratio": 0.8658573199843099,
+          "pass": true
+        }
+      ],
+      "numeric_virgin_py_N": 3904.4282368000195,
+      "virgin_py_relative_gap": 4.775255237275366e-15
+    },
+    "kinematic_0p01E": {
+      "pass": true,
+      "cells": [
+        {
+          "q": 1.175,
+          "upper_bow_ratio": 0.08163667791120063,
+          "upper_reyield_ratio": 0.8464506139680749,
+          "pass": true
+        }
+      ],
+      "numeric_virgin_py_N": 3904.4282368000195,
+      "virgin_py_relative_gap": 4.775255237275366e-15
+    },
+    "patch_0p090": {
+      "pass": true,
+      "cells": [
+        {
+          "q": 1.175,
+          "upper_bow_ratio": 0.07444284552307628,
+          "upper_reyield_ratio": 0.8464506139680766,
+          "pass": true
+        }
+      ],
+      "numeric_virgin_py_N": 3878.571096158965,
+      "virgin_py_relative_gap": 6.096797418387996e-15
+    },
+    "patch_0p110": {
+      "pass": true,
+      "cells": [
+        {
+          "q": 1.175,
+          "upper_bow_ratio": 0.07903059171830845,
+          "upper_reyield_ratio": 0.8464506139680726,
+          "pass": true
+        }
+      ],
+      "numeric_virgin_py_N": 3930.632453154377,
+      "virgin_py_relative_gap": 3.470795270019657e-15
+    },
+    "fy_99MPa": {
+      "pass": true,
+      "cells": [
+        {
+          "q": 1.175,
+          "upper_bow_ratio": 0.060098836359919375,
+          "upper_reyield_ratio": 0.8486351720411625,
+          "pass": true
+        }
+      ],
+      "numeric_virgin_py_N": 3510.1882368000174,
+      "virgin_py_relative_gap": 4.793375980924024e-15
+    },
+    "fy_121MPa": {
+      "pass": true,
+      "cells": [
+        {
+          "q": 1.175,
+          "upper_bow_ratio": 0.09142652259872033,
+          "upper_reyield_ratio": 0.8446667568224768,
+          "pass": true
+        }
+      ],
+      "numeric_virgin_py_N": 4298.668236800021,
+      "virgin_py_relative_gap": 4.8662462391722826e-15
+    }
+  },
+  "virgin_py_relative_gap": 4.775255237275366e-15,
+  "control_operational_bow_interval_mm": [
+    0.6709907809540151,
+    0.6719743628096114
+  ],
+  "dense_analytic_control_bow_outside_operational_interval": true,
+  "uncertainty_note": "Summed refinement shifts are operational estimates, not certified bounds; independent dense analytic control bow may lie outside the saved operational interval. Do not present interval as guaranteed coverage.",
+  "gates": {
+    "complete_registered_matrix": true,
+    "anchors": true,
+    "scope_all_252": true,
+    "event_brackets_all_252": true,
+    "q0_exact": true,
+    "all_cell_bow_precision": true,
+    "primary": true,
+    "six_sensitivities": true,
+    "compute_budget": true
+  },
+  "all_pass": true,
+  "q_star": [
+    1.175
+  ],
+  "compute_elapsed_s": 59.7179931999417,
+  "source_sha256": {
+    "src\\tread_history051.py": "787c5f7685e28a7199e19fa4aa3e14f126480652dec38bbbcca14c7de7a43d89",
+    "src\\tread_history051_sensitivity.py": "5e99f0831181b35db931f048d906ae6c0bdd547f91defa1b6486c7225325af99",
+    "src\\tread_history051_validate.py": "2123f9620fc304ca22abb13dd63fbb209455a0957c6262dff99ce5041ced7564",
+    "analyze\\260919\\051_registration_tread_history_v2.md": "fe88e81a8407d9d62c41dcf84e680a75b26dc98f9f5308a06550c11232522185",
+    "analyze\\260919\\051_registration_tread_history_v3.md": "a8413cd0f0f8020738a39e7e58a6a5bfe94d394724cf5fed58a5685dffbed35c"
+  }
+}
