@@ -44,6 +44,7 @@ python reproduce.py --quick   # the headline only
 | [`less-live-load-next-door`](less-live-load-next-door/) | a continuous girder loses the live load on the next bay — does this bay sag less, or more? | the largest sag of the loaded bay |
 
 | [`where-rotation-restraint-works`](where-rotation-restraint-works/) | one ideal rotational restraint moves along one beam | the maximum downward deflection anywhere |
+| [`fire-three-beams`](fire-three-beams/) | aluminium, steel and glulam beams designed for the same office floor, in the ISO 834 fire — which holds longest? | the time until the sectional bending resistance falls below the fire load (its own solver, Eurocode fire parts) |
 
 ## What the rig is
 
