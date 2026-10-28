@@ -45,6 +45,7 @@ python reproduce.py --quick   # the headline only
 
 | [`where-rotation-restraint-works`](where-rotation-restraint-works/) | one ideal rotational restraint moves along one beam | the maximum downward deflection anywhere |
 | [`fire-three-beams`](fire-three-beams/) | aluminium, steel and glulam beams designed for the same office floor, in the ISO 834 fire — which holds longest? | the time until the sectional bending resistance falls below the fire load (its own solver, Eurocode fire parts) |
+| [`one-beam-or-three-in-fire`](one-beam-or-three-in-fire/) | the same glulam as one, two or three beams under that floor, in the ISO 834 fire — which keeps its calculated bending resistance longest? | the time until the summed sectional bending resistance falls below the fire load (EN 1995-1-2:2004, 54 scenes, restrained and unrestrained) |
 
 ## What the rig is
 
